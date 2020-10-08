@@ -1,14 +1,14 @@
 
 public class Shirt {
 	
-	public int shirtID = 0; // стандартне значення номера моделі сорочки
-	public String description = "-description required-"; // стандартний опис сорочки
-	public char colorCode = 'U'; // R=червоний, B=синій, G=зелений, U=невідомо
-	public double price = 0.0; // стандартна вартість сорочки
-	public int quantityInStock = 0; // стандартна кількість на складі
+	public int shirtID = 0; // СЃС‚Р°РЅРґР°СЂС‚РЅРµ Р·РЅР°С‡РµРЅРЅСЏ РЅРѕРјРµСЂР° РјРѕРґРµР»С– СЃРѕСЂРѕС‡РєРё
+	public String description = "-description required-"; // СЃС‚Р°РЅРґР°СЂС‚РЅРёР№ РѕРїРёСЃ СЃРѕСЂРѕС‡РєРё
+	public char colorCode = 'U'; // R=С‡РµСЂРІРѕРЅРёР№, B=СЃРёРЅС–Р№, G=Р·РµР»РµРЅРёР№, U=РЅРµРІС–РґРѕРјРѕ
+	public double price = 0.0; // СЃС‚Р°РЅРґР°СЂС‚РЅР° РІР°СЂС‚С–СЃС‚СЊ СЃРѕСЂРѕС‡РєРё
+	public int quantityInStock = 0; // СЃС‚Р°РЅРґР°СЂС‚РЅР° РєС–Р»СЊРєС–СЃС‚СЊ РЅР° СЃРєР»Р°РґС–
 	
 	/**
-	 * виводить всю інформацію про сорочку на екран
+	 * РІРёРІРѕРґРёС‚СЊ РІСЃСЋ С–РЅС„РѕСЂРјР°С†С–СЋ РїСЂРѕ СЃРѕСЂРѕС‡РєСѓ РЅР° РµРєСЂР°РЅ
 	 */
 	public void displayShirtInformation() {
 		System.out.println("Shirt ID: " + shirtID);
