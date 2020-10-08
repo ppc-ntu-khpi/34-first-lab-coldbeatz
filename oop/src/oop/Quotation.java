@@ -7,5 +7,4 @@ public class Quotation {
 	public void display() {
 		System.out.println(quote);
 	}
-	
 }
