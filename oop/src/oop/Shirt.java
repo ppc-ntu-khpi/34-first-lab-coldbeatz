@@ -18,4 +18,5 @@ public class Shirt {
 		System.out.println("Shirt price: $" + price);
 		System.out.println("Quantity in stock: " + quantityInStock);
 	}
+	
 }
